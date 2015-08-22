@@ -1,0 +1,17 @@
+NWEN 303 Project 2 - Task 2-5 ReadMe File
+Student Name: Tianfu Yuan
+Student ID: 300228072
+Username: yuantian
+
+The details please check report (NWEN303_P2_TianfuYuan.pdf).
+
+*********************************************************
+How to running KeyManager and Worker:
+
+$ javac KeyManager.java
+$ java KeyManager <port number> <initial-key> <keysize> <ciphertext>
+
+$ javac Worker.java
+$ java Worker <host name> <port number> <chunksize>
+
+*********************************************************
